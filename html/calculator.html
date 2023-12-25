@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/css/styles-calculator.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>CALCULATOR</h1>
+      </nav>
+
+      <main>
+        <section>
+          <nav class="all-nav">
+            <div>
+              <p class="para-js"></p>
+            </div>
+
+            <div class="number">
+              <button onclick="clickfun(event)">AC</button>
+              <button onclick="deletefun()">DEL</button>
+              <button onclick="clickfun(event)">1</button>
+              <button onclick="clickfun(event)">2</button>
+              <button onclick="clickfun(event)">3</button>
+              <button onclick="clickfun(event)">4</button>
+              <button onclick="clickfun(event)">5</button>
+              <button onclick="clickfun(event)">6</button>
+              <button onclick="clickfun(event)">7</button>
+              <button onclick="clickfun(event)">8</button>
+              <button onclick="clickfun(event)">9</button>
+              <button onclick="clickfun(event)">0</button>
+              <!-- <button onclick="clickfun(event)">^</button> -->
+              <button onclick="clickfun(event)">+</button>
+              <!-- <button onclick="clickfun(event)">%</button> -->
+              <button onclick="clickfun(event)">/</button>
+              <button onclick="clickfun(event)">-</button>
+              <button onclick="clickfun(event)">*</button>
+              <button onclick="clickfun(event)">.</button>
+              <button onclick="calfun(event)" id="equal">=</button>
+            </div>
+          </nav>
+        </section>
+      </main>
+    </header>
+
+    <script src="/js/script-calculator.js"></script>
+  </body>
+</html>
